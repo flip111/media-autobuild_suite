@@ -222,6 +222,8 @@ How to use it:
 - Select the numbers of CPU (cores) you want to use
 - Wait a little bit, and hopefully after a while you'll find all your "*.exe" tools under local32\bin-(audio/global/video) or local64\bin-(audio/global/video)
 
+The suite generates a `logs.zip`. However this file will be deleted on a successful build. You can verify that the build was succesful by looking for a file called `last_successful_run`.
+
 The Script writes a ini-file, so you only need to make these choices the first time what you want to build.
 
 For all you need ~7 GB disk space.
